@@ -1,0 +1,14 @@
+<!--angularJS第二章的测试例子，model和view双向数据绑定-->
+<!DOTYPE html>
+<html ng-app> <!--ng-app是引用angular的开始-->
+<head>
+    <title>Simple app</title>
+    <!-- 引入angularjs源文件 -->
+    <script src="../../../../resource/js/angularjs/angular.js">
+    </script>
+</head>
+<body>
+<input ng-model="name" type="text" placeholder="Your name"> <!--数据model ：name-->
+<h1>hello {{name}}</h1> <!--view通过name和model实现双向数据绑定-->
+</body>
+</html>
